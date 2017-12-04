@@ -32,3 +32,7 @@ app.post('/todos', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is working in port  ${port}`);
 });
+
+module.exports = {
+    app
+};
