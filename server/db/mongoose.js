@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.promise = global.Promise;
-mongoose.connect('mongodb://evides:qaz123wsx@ds033196.mlab.com:33196/todos');
+mongoose.connect('mongodb://evides:qaz123wsx@ds015584.mlab.com:15584/heroku_zz0b7j74');
 
 module.exports = {
     mongoose
